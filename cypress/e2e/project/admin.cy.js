@@ -20,7 +20,7 @@ describe("Admin spec", () => {
 
     });
 
-    it.only("Create system user", () => {
+    it.only("Search system user", () => {
         commonLeftSideBar.clckOnAdmin();
         commonTopBarBody.selectAMenueItem("User Management", "Users");
 
